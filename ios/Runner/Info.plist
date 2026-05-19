@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleDisplayName</key>
+  <string>NFC e Biometria</string>
+  <key>NSCameraUsageDescription</key>
+  <string>Este app usa a camera para demonstrar deteccao facial em uma atividade didatica.</string>
+  <key>NSPhotoLibraryUsageDescription</key>
+  <string>Este app permite selecionar imagem para demonstrar deteccao facial.</string>
+  <key>NSFaceIDUsageDescription</key>
+  <string>Este app usa Face ID apenas para autenticacao local demonstrativa.</string>
+  <key>NFCReaderUsageDescription</key>
+  <string>Este app usa NFC para ler tags em atividade didatica.</string>
+</dict>
+</plist>
