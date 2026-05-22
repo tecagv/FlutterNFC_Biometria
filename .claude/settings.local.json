@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter analyze *)",
+      "Bash(flutter test *)",
+      "Bash(flutter devices *)",
+      "Bash(flutter run *)",
+      "Bash(adb -s emulator-5554 exec-out screencap -p)",
+      "PowerShell(Test-Path *)",
+      "PowerShell($adb = \"C:\\\\Users\\\\Alexandre\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe\"; & $adb -s emulator-5554 shell input tap 200 175)",
+      "PowerShell(Out-Null *)",
+      "PowerShell($adb = \"C:\\\\Users\\\\Alexandre\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe\"; & $adb -s emulator-5554 shell wm size)",
+      "PowerShell($adb = \"C:\\\\Users\\\\Alexandre\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe\"; & $adb -s emulator-5554 shell dumpsys window displays | Select-String -Pattern \"mCurrentRotation|init=|app=\" | Select-Object -First 5)",
+      "PowerShell($adb = \"C:\\\\Users\\\\Alexandre\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe\"; & $adb -s emulator-5554 shell input tap 800 640)",
+      "Bash(python *)",
+      "PowerShell(Add-Type -AssemblyName System.Drawing; $img = [System.Drawing.Image]::FromFile\\(\"C:\\\\Users\\\\Alexandre\\\\Documents\\\\flutter\\\\flutter_nfc_biometria_educacional\\\\build\\\\run_screenshot3.png\"\\); \"{0}x{1}\" -f $img.Width, $img.Height; $img.Dispose\\(\\))"
+    ]
+  }
+}
